@@ -1,0 +1,268 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.img {
+    height: 50%;
+    width: 50%;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    padding-right: 20px;
+    color: #fff;
+}
+
+@media (max-width:985px) {
+    .nav1 {
+        background: rgba(255, 255, 255, 0.3); /* Latar belakang semi-transparan */
+        backdrop-filter: blur(10px); /* Efek blur */
+    }
+
+    .nav-link {
+        color: #fff;
+    }
+
+    .img {
+        height: 70%;
+        width: 80%;
+    }
+
+    body {
+        width: 100%;
+        background-image: url(3374959.jpg);
+        background-size: cover;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+        color: #fff;
+     }
+
+     .container3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+        color: #fff;
+     }
+
+
+    
+     .img2 {
+        width: 60%;
+        height: 40%;
+        border-radius: 50%;
+     }
+    
+     .p1 {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        flex-wrap: wrap;
+        text-align: center;
+        color: #fff;
+    }
+
+    .skil1 {
+        text-align: center;
+        justify-content: center;
+        color: #fff;
+     }
+
+     .skil2 {
+        text-align: center;
+        justify-content: center;
+        color: #fff;
+     }
+
+     .img3 {
+        height: 300px;
+        width: 300px;
+     }
+
+     .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20vh;
+        gap: 20px; /* Jarak antar ikon */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .social-icons a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background-color: #008cff; /* Warna latar belakang */
+        border-radius: 50%; /* Bentuk bulat */
+        color: white; /* Warna ikon */
+        text-decoration: none; /* Menghapus garis bawah */
+        font-size: 20px; /* Ukuran ikon */
+        transition: background-color 0.3s; /* Efek transisi */
+    }
+
+    .social-icons a:hover {
+        background-color: #555; /* Warna saat di-hover */
+    }
+
+
+ }
+
+ @media (min-width:985px) {
+
+    body {
+        background-image: url(3374959.jpg);
+        background-size: cover;
+    }
+    .container1 {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .text-center {
+        color: rgb(0, 238, 255);
+    }
+
+    .img {
+        width: 30%;
+        height: 50%;
+        border-radius: 50px;
+    }
+
+    .p1 {
+        padding-left: 10px;
+    }
+
+    .container2 {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+     }
+
+     .container3 {
+        display: flex;
+        width: 100%;
+        height: 80vh;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+       
+     }
+
+     .sec1 {
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .sec2 {
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+
+     }
+    
+     .img2 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        border-radius: 50%;
+     }
+     
+     .img3 {
+        padding: 20px;
+     }
+
+     .skil1 {
+        text-align: center;
+        justify-content: center;
+        color: #fff;
+     }
+
+     .skil2 {
+        text-align: center;
+        justify-content: center;
+        color: #fff;
+     }
+    
+     .p1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        flex-wrap: wrap;
+        width: 40%;
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+     }
+
+     .nav1 {
+        position: fixed;
+        width: 100%;
+        z-index: 222;
+     }
+
+     .nav-link {
+        color: #fff;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20vh;
+        gap: 20px; /* Jarak antar ikon */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .social-icons a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        background-color: #008cff; /* Warna latar belakang */
+        border-radius: 50%; /* Bentuk bulat */
+        color: white; /* Warna ikon */
+        text-decoration: none; /* Menghapus garis bawah */
+        font-size: 20px; /* Ukuran ikon */
+        transition: background-color 0.3s; /* Efek transisi */
+    }
+
+    .social-icons a:hover {
+        background-color: #555; /* Warna saat di-hover */
+    }
+
+    .container4 {
+        display: flex;
+        width: 100%;
+        height: 30vh;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        background-image: url(3374959.jpg);
+        background-size: cover;
+    }
+ }
